@@ -7,7 +7,7 @@ export default class About extends Component {
         return (
             <>
                 <Avatar page="about" />
-                <Avatar page="about" />
+                <AboutMenu />
             </>
         );
     }

@@ -1,12 +1,20 @@
 import React, { Component } from "react";
 import classNames from "classnames";
 import "../styles/aboutMenu.css";
-const AboutMenuItem = ({ title, active, onClick }) => {
+
+const AboutSubheading = ({ title, content, active, onClick, menuItem }) => {
+    const subContainerClass = `sub-containe-${menuItem}`;
+
     return (
-        <div className={classNames("item", { active })} onClick={onClick}>
-            <h2 className="title">{title}</h2>
+        <div
+            className={classNames(subContainerClass, {
+                "active-subheading": active,
+            })}
+        >
+            <h3 onClick={onClick}>{title}</h3>
+            <div className="p-container">{content}</div>
         </div>
     );
 };
 
-export default AboutMenuItem;
+export default AboutSubheading;

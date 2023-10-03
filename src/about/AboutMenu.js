@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import AboutMenuItem from "./AboutMenuitem";
+import AboutMenuItem from "./AboutMenuItem";
 import AboutSubheading from "./AboutSubheading";
-import subheadingData from "./subheadingData";
+import subheadingsData from "./subheadingsData";
 import personalIcon from "../assets/moebius-triangle.png";
 import educationIcon from "../assets/upgrade.png";
 import careerIcon from "../assets/triple-corn.png";
@@ -39,7 +39,8 @@ export default class AboutMenu extends Component {
                 ? educationIcon
                 : careerIcon;
 
-        const subheadings = subheadingData[activeMenuItem];
+        const subheadings = subheadingsData[activeMenuItem];
+
         return (
             <>
                 <div className="menu">
@@ -56,7 +57,7 @@ export default class AboutMenu extends Component {
                     <div className="icon-title-container">
                         <img
                             src={activeMenuIcon}
-                            alt={activeMenuIcon}
+                            alt={activeMenuTitle}
                             className="icon"
                         />
                         <h3>{activeMenuTitle}</h3>

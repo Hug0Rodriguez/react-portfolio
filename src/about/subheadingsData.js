@@ -5,8 +5,8 @@ const subheadingsData = {
             content: (
                 <>
                     <p>
-                        I AM COOL AND I AM SEXY AND I AM SMART AND I AM FUNNY
-                        AND I AM DELICIOUS AND I AM A GENIUS
+                        Self thought developer with experience building and
+                        maintaining software and software architecture.
                     </p>
                 </>
             ),
@@ -17,10 +17,8 @@ const subheadingsData = {
             title: "2023 HACK REACTOR GRADUATE",
             content: (
                 <>
-                    <p>
-                        I AM COOL AND I AM SEXY AND I AM SMART AND I AM FUNNY
-                        AND I AM DELICIOUS AND I AM A GENIUS
-                    </p>
+                    <i>March 2023 - September 2023</i>
+                    <p>Advance Software engineering certificate</p>
                 </>
             ),
         },
@@ -28,34 +26,32 @@ const subheadingsData = {
             title: "2020 BACHELOR IN BUSINESS ADMINISTRATION",
             content: (
                 <>
-                    <p>
-                        I AM COOL AND I AM SEXY AND I AM SMART AND I AM FUNNY
-                        AND I AM DELICIOUS AND I AM A GENIUS
-                    </p>
+                    <i>September 2019 - May 2022</i>
+                    <p>Bachelor of Business Administration - Marketing</p>
                 </>
             ),
         },
     ],
     3: [
         {
-            title: "2021 Marketing Intern",
+            title: " Sales Associate at Sunglass Hut ",
             content: (
                 <>
+                    <i>May 2019 - March 2020</i>
                     <p>
-                        I AM COOL AND I AM SEXY AND I AM SMART AND I AM FUNNY
-                        AND I AM DELICIOUS AND I AM A GENIUS
+                        learned to create an authentic connection with the
+                        customers while also make sure they become aware of our
+                        products and services
                     </p>
                 </>
             ),
         },
         {
-            title: "Dishwasher at la pecora bianca",
+            title: "Sales Associate at U.S. Polo Assn. Times Square",
             content: (
                 <>
-                    <p>
-                        I AM COOL AND I AM SEXY AND I AM SMART AND I AM FUNNY
-                        AND I AM DELICIOUS AND I AM A GENIUS
-                    </p>
+                    <i>September 2018 - August 2018</i>
+                    <p>learn to be able to work in a fast paced environment</p>
                 </>
             ),
         },

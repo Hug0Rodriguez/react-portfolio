@@ -5,15 +5,17 @@ import projectThree from "../assets/project-3.png";
 
 const projects = {
     1: {
-        title: "Project Beta2",
+        title: "LangoTango",
         image: projectOne,
         description: (
             <>
-                <p>Dont bother checking this just yet</p>
+                <p>
+                    Full Stack language translation chat app using Chatgpt api
+                </p>
             </>
         ),
-        github: "https://github.com",
-        demo: "https://netlify.com",
+        github: "https://gitlab.com/languini-league/languini-project",
+        demo: "https://languini-league.gitlab.io/languini-project/",
     },
     2: {
         title: "Project Alpha Apr",
